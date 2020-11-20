@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -350,55 +350,54 @@ PartNo.: 581 01 48 005 S (Rev. D)&lt;/h3&gt;&lt;br /&gt;
 <wire x1="116.84" y1="5.08" x2="116.84" y2="114.3" width="0.127" layer="20"/>
 <hole x="36.83" y="104.775" drill="2.54"/>
 <hole x="88.9" y="104.775" drill="2.54"/>
-<pad name="L3" x="28.9052" y="109.474" drill="1.27" shape="octagon"/>
-<pad name="P$2" x="0.03286875" y="0.109475" drill="1.27" diameter="0.00126875" shape="octagon"/>
-<pad name="M3" x="24.9428" y="109.474" drill="1.27" shape="octagon"/>
-<pad name="N3" x="20.9804" y="109.474" drill="1.27" shape="octagon"/>
-<pad name="O3" x="17.018" y="109.474" drill="1.27" shape="octagon"/>
-<pad name="P3" x="13.0556" y="109.474" drill="1.27" shape="octagon"/>
-<pad name="P2" x="13.0556" y="105.4862" drill="1.27" shape="octagon"/>
-<pad name="O2" x="17.018" y="105.4862" drill="1.27" shape="octagon"/>
-<pad name="N2" x="20.9804" y="105.4862" drill="1.27" shape="octagon"/>
-<pad name="M2" x="24.9428" y="105.4862" drill="1.27" shape="octagon"/>
-<pad name="L2" x="28.9052" y="105.4862" drill="1.27" shape="octagon"/>
-<pad name="P1" x="13.0556" y="101.4984" drill="1.27" shape="octagon"/>
-<pad name="O1" x="17.018" y="101.4984" drill="1.27" shape="octagon"/>
-<pad name="N1" x="20.9804" y="101.4984" drill="1.27" shape="octagon"/>
-<pad name="M1" x="24.9428" y="101.4984" drill="1.27" shape="octagon"/>
-<pad name="L1" x="28.9052" y="101.4984" drill="1.27" shape="octagon"/>
-<pad name="K1" x="44.7548" y="101.4984" drill="1.27" shape="octagon"/>
-<pad name="J1" x="48.7172" y="101.4984" drill="1.27" shape="octagon"/>
-<pad name="I1" x="52.6796" y="101.4984" drill="1.27" shape="octagon"/>
-<pad name="H1" x="56.642" y="101.4984" drill="1.27" shape="octagon"/>
-<pad name="G1" x="60.6044" y="101.4984" drill="1.27" shape="octagon"/>
-<pad name="K2" x="44.7548" y="105.4862" drill="1.27" shape="octagon"/>
-<pad name="J2" x="48.7172" y="105.4862" drill="1.27" shape="octagon"/>
-<pad name="I2" x="52.6796" y="105.4862" drill="1.27" shape="octagon"/>
-<pad name="H2" x="56.642" y="105.4862" drill="1.27" shape="octagon"/>
-<pad name="G2" x="60.6044" y="105.4862" drill="1.27" shape="octagon"/>
-<pad name="K3" x="44.7548" y="109.474" drill="1.27" shape="octagon"/>
-<pad name="J3" x="48.7172" y="109.474" drill="1.27" shape="octagon"/>
-<pad name="I3" x="52.6796" y="109.474" drill="1.27" shape="octagon"/>
-<pad name="H3" x="56.642" y="109.474" drill="1.27" shape="octagon"/>
-<pad name="G3" x="60.6044" y="109.474" drill="1.27" shape="octagon"/>
-<pad name="F1" x="73.0504" y="101.4984" drill="1.27" shape="octagon"/>
-<pad name="E1" x="77.0128" y="101.4984" drill="1.27" shape="octagon"/>
-<pad name="D1" x="80.9752" y="101.4984" drill="1.27" shape="octagon"/>
-<pad name="F2" x="73.0504" y="105.4862" drill="1.27" shape="octagon"/>
-<pad name="E2" x="77.0128" y="105.4862" drill="1.27" shape="octagon"/>
-<pad name="D2" x="80.9752" y="105.4862" drill="1.27" shape="octagon"/>
-<pad name="F3" x="73.0504" y="109.474" drill="1.27" shape="octagon"/>
-<pad name="E3" x="77.0128" y="109.474" drill="1.27" shape="octagon"/>
-<pad name="D3" x="80.9752" y="109.474" drill="1.27" shape="octagon"/>
-<pad name="C1" x="96.8248" y="101.4984" drill="1.27" shape="octagon"/>
-<pad name="B1" x="100.7872" y="101.4984" drill="1.27" shape="octagon"/>
-<pad name="A1" x="104.7496" y="101.4984" drill="1.27" shape="octagon"/>
-<pad name="C2" x="96.8248" y="105.4862" drill="1.27" shape="octagon"/>
-<pad name="B2" x="100.7872" y="105.4862" drill="1.27" shape="octagon"/>
-<pad name="A2" x="104.7496" y="105.4862" drill="1.27" shape="octagon"/>
-<pad name="C3" x="96.8248" y="109.474" drill="1.27" shape="octagon"/>
-<pad name="B3" x="100.7872" y="109.474" drill="1.27" shape="octagon"/>
-<pad name="A3" x="104.7496" y="109.474" drill="1.27" shape="octagon"/>
+<pad name="L3" x="28.9052" y="109.474" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="M3" x="24.9428" y="109.474" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="N3" x="20.9804" y="109.474" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="O3" x="17.018" y="109.474" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="P3" x="13.0556" y="109.474" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="P2" x="13.0556" y="105.4862" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="O2" x="17.018" y="105.4862" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="N2" x="20.9804" y="105.4862" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="M2" x="24.9428" y="105.4862" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="L2" x="28.9052" y="105.4862" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="P1" x="13.0556" y="101.4984" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="O1" x="17.018" y="101.4984" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="N1" x="20.9804" y="101.4984" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="M1" x="24.9428" y="101.4984" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="L1" x="28.9052" y="101.4984" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="K1" x="44.7548" y="101.4984" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="J1" x="48.7172" y="101.4984" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="I1" x="52.6796" y="101.4984" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="H1" x="56.642" y="101.4984" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="G1" x="60.6044" y="101.4984" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="K2" x="44.7548" y="105.4862" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="J2" x="48.7172" y="105.4862" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="I2" x="52.6796" y="105.4862" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="H2" x="56.642" y="105.4862" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="G2" x="60.6044" y="105.4862" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="K3" x="44.7548" y="109.474" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="J3" x="48.7172" y="109.474" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="I3" x="52.6796" y="109.474" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="H3" x="56.642" y="109.474" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="G3" x="60.6044" y="109.474" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="F1" x="73.0504" y="101.4984" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="E1" x="77.0128" y="101.4984" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="D1" x="80.9752" y="101.4984" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="F2" x="73.0504" y="105.4862" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="E2" x="77.0128" y="105.4862" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="D2" x="80.9752" y="105.4862" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="F3" x="73.0504" y="109.474" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="E3" x="77.0128" y="109.474" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="D3" x="80.9752" y="109.474" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="C1" x="96.8248" y="101.4984" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="B1" x="100.7872" y="101.4984" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="A1" x="104.7496" y="101.4984" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="C2" x="96.8248" y="105.4862" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="B2" x="100.7872" y="105.4862" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="A2" x="104.7496" y="105.4862" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="C3" x="96.8248" y="109.474" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="B3" x="100.7872" y="109.474" drill="1.27" diameter="2.159" shape="octagon"/>
+<pad name="A3" x="104.7496" y="109.474" drill="1.27" diameter="2.159" shape="octagon"/>
 <wire x1="0" y1="114.3" x2="116.84" y2="114.3" width="0.127" layer="20"/>
 <wire x1="11.1506" y1="99.5934" x2="11.1506" y2="114.3" width="0.127" layer="21"/>
 <wire x1="11.1506" y1="99.5934" x2="62.5094" y2="99.5934" width="0.127" layer="21"/>
@@ -968,24 +967,24 @@ www.irf.com / irlml5203.pdf</description>
 <wire x1="4.572" y1="-91.44" x2="7.62" y2="-91.44" width="0.508" layer="94"/>
 <text x="0" y="2.54" size="2.54" layer="95" align="top-left">&gt;NAME</text>
 <text x="-5.08" y="-99.06" size="2.54" layer="95" align="top-left">5810148005-18</text>
-<pin name="1" x="12.7" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="2" x="12.7" y="-10.16" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="3" x="12.7" y="-15.24" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="4" x="12.7" y="-20.32" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="5" x="12.7" y="-25.4" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="6" x="12.7" y="-30.48" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="7" x="12.7" y="-35.56" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="8" x="12.7" y="-40.64" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="9" x="12.7" y="-45.72" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="10" x="12.7" y="-50.8" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="11" x="12.7" y="-55.88" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="12" x="12.7" y="-60.96" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="13" x="12.7" y="-66.04" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="14" x="12.7" y="-71.12" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="15" x="12.7" y="-76.2" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="16" x="12.7" y="-81.28" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="17" x="12.7" y="-86.36" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="18" x="12.7" y="-91.44" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="A1" x="12.7" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="A2" x="12.7" y="-10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="A3" x="12.7" y="-15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="B1" x="12.7" y="-20.32" length="middle" direction="pas" rot="R180"/>
+<pin name="B2" x="12.7" y="-25.4" length="middle" direction="pas" rot="R180"/>
+<pin name="B3" x="12.7" y="-30.48" length="middle" direction="pas" rot="R180"/>
+<pin name="C1" x="12.7" y="-35.56" length="middle" direction="pas" rot="R180"/>
+<pin name="C2" x="12.7" y="-40.64" length="middle" direction="pas" rot="R180"/>
+<pin name="C3" x="12.7" y="-45.72" length="middle" direction="pas" rot="R180"/>
+<pin name="D1" x="12.7" y="-50.8" length="middle" direction="pas" rot="R180"/>
+<pin name="D2" x="12.7" y="-55.88" length="middle" direction="pas" rot="R180"/>
+<pin name="D3" x="12.7" y="-60.96" length="middle" direction="pas" rot="R180"/>
+<pin name="E1" x="12.7" y="-66.04" length="middle" direction="pas" rot="R180"/>
+<pin name="E2" x="12.7" y="-71.12" length="middle" direction="pas" rot="R180"/>
+<pin name="E3" x="12.7" y="-76.2" length="middle" direction="pas" rot="R180"/>
+<pin name="F1" x="12.7" y="-81.28" length="middle" direction="pas" rot="R180"/>
+<pin name="F2" x="12.7" y="-86.36" length="middle" direction="pas" rot="R180"/>
+<pin name="F3" x="12.7" y="-91.44" length="middle" direction="pas" rot="R180"/>
 </symbol>
 <symbol name="CON_CINCH_MODICE_SE_30P">
 <description>SE Header Black 48 Circuit</description>
@@ -1115,66 +1114,66 @@ www.irf.com / irlml5203.pdf</description>
 <wire x1="4.572" y1="-121.92" x2="7.62" y2="-121.92" width="0.508" layer="94"/>
 <text x="0" y="2.54" size="2.54" layer="95" align="top-left">&gt;NAME</text>
 <text x="-5.08" y="-160.02" size="2.54" layer="95" align="top-left">5810148005-30</text>
-<pin name="1" x="12.7" y="-5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="2" x="12.7" y="-10.16" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="3" x="12.7" y="-15.24" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="4" x="12.7" y="-20.32" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="5" x="12.7" y="-25.4" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="6" x="12.7" y="-30.48" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="7" x="12.7" y="-35.56" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="8" x="12.7" y="-40.64" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="9" x="12.7" y="-45.72" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="10" x="12.7" y="-50.8" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="11" x="12.7" y="-55.88" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="12" x="12.7" y="-60.96" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="13" x="12.7" y="-66.04" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="14" x="12.7" y="-71.12" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="15" x="12.7" y="-76.2" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="16" x="12.7" y="-81.28" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="17" x="12.7" y="-86.36" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="18" x="12.7" y="-91.44" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="19" x="12.7" y="-96.52" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="20" x="12.7" y="-101.6" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="21" x="12.7" y="-106.68" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="22" x="12.7" y="-111.76" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="23" x="12.7" y="-116.84" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="24" x="12.7" y="-121.92" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="G1" x="12.7" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="G2" x="12.7" y="-10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="G3" x="12.7" y="-15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="H1" x="12.7" y="-20.32" length="middle" direction="pas" rot="R180"/>
+<pin name="H2" x="12.7" y="-25.4" length="middle" direction="pas" rot="R180"/>
+<pin name="H3" x="12.7" y="-30.48" length="middle" direction="pas" rot="R180"/>
+<pin name="I1" x="12.7" y="-35.56" length="middle" direction="pas" rot="R180"/>
+<pin name="I2" x="12.7" y="-40.64" length="middle" direction="pas" rot="R180"/>
+<pin name="I3" x="12.7" y="-45.72" length="middle" direction="pas" rot="R180"/>
+<pin name="J1" x="12.7" y="-50.8" length="middle" direction="pas" rot="R180"/>
+<pin name="J2" x="12.7" y="-55.88" length="middle" direction="pas" rot="R180"/>
+<pin name="J3" x="12.7" y="-60.96" length="middle" direction="pas" rot="R180"/>
+<pin name="K1" x="12.7" y="-66.04" length="middle" direction="pas" rot="R180"/>
+<pin name="K2" x="12.7" y="-71.12" length="middle" direction="pas" rot="R180"/>
+<pin name="K3" x="12.7" y="-76.2" length="middle" direction="pas" rot="R180"/>
+<pin name="L1" x="12.7" y="-81.28" length="middle" direction="pas" rot="R180"/>
+<pin name="L2" x="12.7" y="-86.36" length="middle" direction="pas" rot="R180"/>
+<pin name="L3" x="12.7" y="-91.44" length="middle" direction="pas" rot="R180"/>
+<pin name="M1" x="12.7" y="-96.52" length="middle" direction="pas" rot="R180"/>
+<pin name="M2" x="12.7" y="-101.6" length="middle" direction="pas" rot="R180"/>
+<pin name="M3" x="12.7" y="-106.68" length="middle" direction="pas" rot="R180"/>
+<pin name="N1" x="12.7" y="-111.76" length="middle" direction="pas" rot="R180"/>
+<pin name="N2" x="12.7" y="-116.84" length="middle" direction="pas" rot="R180"/>
+<pin name="N3" x="12.7" y="-121.92" length="middle" direction="pas" rot="R180"/>
 <wire x1="2.54" y1="-127.508" x2="2.54" y2="-126.492" width="1.016" layer="94"/>
 <wire x1="2.54" y1="-126.492" x2="5.08" y2="-126.492" width="1.016" layer="94"/>
 <wire x1="5.08" y1="-126.492" x2="5.08" y2="-127.508" width="1.016" layer="94"/>
 <wire x1="5.08" y1="-127.508" x2="2.54" y2="-127.508" width="1.016" layer="94"/>
 <wire x1="4.572" y1="-127" x2="7.62" y2="-127" width="0.508" layer="94"/>
-<pin name="25" x="12.7" y="-127" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="O1" x="12.7" y="-127" length="middle" direction="pas" rot="R180"/>
 <wire x1="2.54" y1="-132.588" x2="2.54" y2="-131.572" width="1.016" layer="94"/>
 <wire x1="2.54" y1="-131.572" x2="5.08" y2="-131.572" width="1.016" layer="94"/>
 <wire x1="5.08" y1="-131.572" x2="5.08" y2="-132.588" width="1.016" layer="94"/>
 <wire x1="5.08" y1="-132.588" x2="2.54" y2="-132.588" width="1.016" layer="94"/>
 <wire x1="4.572" y1="-132.08" x2="7.62" y2="-132.08" width="0.508" layer="94"/>
-<pin name="26" x="12.7" y="-132.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="O2" x="12.7" y="-132.08" length="middle" direction="pas" rot="R180"/>
 <wire x1="2.54" y1="-137.668" x2="2.54" y2="-136.652" width="1.016" layer="94"/>
 <wire x1="2.54" y1="-136.652" x2="5.08" y2="-136.652" width="1.016" layer="94"/>
 <wire x1="5.08" y1="-136.652" x2="5.08" y2="-137.668" width="1.016" layer="94"/>
 <wire x1="5.08" y1="-137.668" x2="2.54" y2="-137.668" width="1.016" layer="94"/>
 <wire x1="4.572" y1="-137.16" x2="7.62" y2="-137.16" width="0.508" layer="94"/>
-<pin name="27" x="12.7" y="-137.16" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="O3" x="12.7" y="-137.16" length="middle" direction="pas" rot="R180"/>
 <wire x1="2.54" y1="-142.748" x2="2.54" y2="-141.732" width="1.016" layer="94"/>
 <wire x1="2.54" y1="-141.732" x2="5.08" y2="-141.732" width="1.016" layer="94"/>
 <wire x1="5.08" y1="-141.732" x2="5.08" y2="-142.748" width="1.016" layer="94"/>
 <wire x1="5.08" y1="-142.748" x2="2.54" y2="-142.748" width="1.016" layer="94"/>
 <wire x1="4.572" y1="-142.24" x2="7.62" y2="-142.24" width="0.508" layer="94"/>
-<pin name="28" x="12.7" y="-142.24" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="P1" x="12.7" y="-142.24" length="middle" direction="pas" rot="R180"/>
 <wire x1="2.54" y1="-147.828" x2="2.54" y2="-146.812" width="1.016" layer="94"/>
 <wire x1="2.54" y1="-146.812" x2="5.08" y2="-146.812" width="1.016" layer="94"/>
 <wire x1="5.08" y1="-146.812" x2="5.08" y2="-147.828" width="1.016" layer="94"/>
 <wire x1="5.08" y1="-147.828" x2="2.54" y2="-147.828" width="1.016" layer="94"/>
 <wire x1="4.572" y1="-147.32" x2="7.62" y2="-147.32" width="0.508" layer="94"/>
-<pin name="29" x="12.7" y="-147.32" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="P2" x="12.7" y="-147.32" length="middle" direction="pas" rot="R180"/>
 <wire x1="2.54" y1="-152.908" x2="2.54" y2="-151.892" width="1.016" layer="94"/>
 <wire x1="2.54" y1="-151.892" x2="5.08" y2="-151.892" width="1.016" layer="94"/>
 <wire x1="5.08" y1="-151.892" x2="5.08" y2="-152.908" width="1.016" layer="94"/>
 <wire x1="5.08" y1="-152.908" x2="2.54" y2="-152.908" width="1.016" layer="94"/>
 <wire x1="4.572" y1="-152.4" x2="7.62" y2="-152.4" width="0.508" layer="94"/>
-<pin name="30" x="12.7" y="-152.4" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="P3" x="12.7" y="-152.4" length="middle" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1277,56 +1276,56 @@ https://de.rs-online.com/web/p/elektrische-kfz-steckverbinder/6647204</descripti
 <gate name="G$2" symbol="CON_CINCH_MODICE_SE_18P" x="43.18" y="0"/>
 </gates>
 <devices>
-<device name="" package="CON_CINCH_MODICE_SE_5810148005">
+<device name="CINCH_MODICE_SE_48WAY_PCB" package="CINCH_MODICE_SE_CONNECTOR_BOARD_DIMENSIONS">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="11" pad="11"/>
-<connect gate="G$1" pin="12" pad="12"/>
-<connect gate="G$1" pin="13" pad="13"/>
-<connect gate="G$1" pin="14" pad="14"/>
-<connect gate="G$1" pin="15" pad="15"/>
-<connect gate="G$1" pin="16" pad="16"/>
-<connect gate="G$1" pin="17" pad="17"/>
-<connect gate="G$1" pin="18" pad="18"/>
-<connect gate="G$1" pin="19" pad="19"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="20" pad="20"/>
-<connect gate="G$1" pin="21" pad="21"/>
-<connect gate="G$1" pin="22" pad="22"/>
-<connect gate="G$1" pin="23" pad="23"/>
-<connect gate="G$1" pin="24" pad="24"/>
-<connect gate="G$1" pin="25" pad="25"/>
-<connect gate="G$1" pin="26" pad="26"/>
-<connect gate="G$1" pin="27" pad="27"/>
-<connect gate="G$1" pin="28" pad="28"/>
-<connect gate="G$1" pin="29" pad="29"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="30" pad="30"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-<connect gate="G$2" pin="1" pad="31"/>
-<connect gate="G$2" pin="10" pad="40"/>
-<connect gate="G$2" pin="11" pad="41"/>
-<connect gate="G$2" pin="12" pad="42"/>
-<connect gate="G$2" pin="13" pad="43"/>
-<connect gate="G$2" pin="14" pad="44"/>
-<connect gate="G$2" pin="15" pad="45"/>
-<connect gate="G$2" pin="16" pad="46"/>
-<connect gate="G$2" pin="17" pad="47"/>
-<connect gate="G$2" pin="18" pad="48"/>
-<connect gate="G$2" pin="2" pad="32"/>
-<connect gate="G$2" pin="3" pad="33"/>
-<connect gate="G$2" pin="4" pad="34"/>
-<connect gate="G$2" pin="5" pad="35"/>
-<connect gate="G$2" pin="6" pad="36"/>
-<connect gate="G$2" pin="7" pad="37"/>
-<connect gate="G$2" pin="8" pad="38"/>
-<connect gate="G$2" pin="9" pad="39"/>
+<connect gate="G$1" pin="G1" pad="G1"/>
+<connect gate="G$1" pin="G2" pad="G2"/>
+<connect gate="G$1" pin="G3" pad="G3"/>
+<connect gate="G$1" pin="H1" pad="H1"/>
+<connect gate="G$1" pin="H2" pad="H2"/>
+<connect gate="G$1" pin="H3" pad="H3"/>
+<connect gate="G$1" pin="I1" pad="I1"/>
+<connect gate="G$1" pin="I2" pad="I2"/>
+<connect gate="G$1" pin="I3" pad="I3"/>
+<connect gate="G$1" pin="J1" pad="J1"/>
+<connect gate="G$1" pin="J2" pad="J2"/>
+<connect gate="G$1" pin="J3" pad="J3"/>
+<connect gate="G$1" pin="K1" pad="K1"/>
+<connect gate="G$1" pin="K2" pad="K2"/>
+<connect gate="G$1" pin="K3" pad="K3"/>
+<connect gate="G$1" pin="L1" pad="L1"/>
+<connect gate="G$1" pin="L2" pad="L2"/>
+<connect gate="G$1" pin="L3" pad="L3"/>
+<connect gate="G$1" pin="M1" pad="M1"/>
+<connect gate="G$1" pin="M2" pad="M2"/>
+<connect gate="G$1" pin="M3" pad="M3"/>
+<connect gate="G$1" pin="N1" pad="N1"/>
+<connect gate="G$1" pin="N2" pad="N2"/>
+<connect gate="G$1" pin="N3" pad="N3"/>
+<connect gate="G$1" pin="O1" pad="O1"/>
+<connect gate="G$1" pin="O2" pad="O2"/>
+<connect gate="G$1" pin="O3" pad="O3"/>
+<connect gate="G$1" pin="P1" pad="P1"/>
+<connect gate="G$1" pin="P2" pad="P2"/>
+<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$2" pin="A1" pad="A1"/>
+<connect gate="G$2" pin="A2" pad="A2"/>
+<connect gate="G$2" pin="A3" pad="A3"/>
+<connect gate="G$2" pin="B1" pad="B1"/>
+<connect gate="G$2" pin="B2" pad="B2"/>
+<connect gate="G$2" pin="B3" pad="B3"/>
+<connect gate="G$2" pin="C1" pad="C1"/>
+<connect gate="G$2" pin="C2" pad="C2"/>
+<connect gate="G$2" pin="C3" pad="C3"/>
+<connect gate="G$2" pin="D1" pad="D1"/>
+<connect gate="G$2" pin="D2" pad="D2"/>
+<connect gate="G$2" pin="D3" pad="D3"/>
+<connect gate="G$2" pin="E1" pad="E1"/>
+<connect gate="G$2" pin="E2" pad="E2"/>
+<connect gate="G$2" pin="E3" pad="E3"/>
+<connect gate="G$2" pin="F1" pad="F1"/>
+<connect gate="G$2" pin="F2" pad="F2"/>
+<connect gate="G$2" pin="F3" pad="F3"/>
 </connects>
 <technologies>
 <technology name=""/>
