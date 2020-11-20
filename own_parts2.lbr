@@ -406,35 +406,18 @@ PartNo.: 581 01 48 005 S (Rev. D)&lt;/h3&gt;&lt;br /&gt;
 <wire x1="71.1454" y1="114.3" x2="71.1454" y2="99.5934" width="0.127" layer="21"/>
 <wire x1="106.6546" y1="99.5934" x2="71.1454" y2="99.5934" width="0.127" layer="21"/>
 <wire x1="106.6546" y1="99.5934" x2="106.6546" y2="114.3" width="0.127" layer="21"/>
-<rectangle x1="33.147" y1="99.822" x2="40.513" y2="114.3" layer="39"/>
-<rectangle x1="85.217" y1="99.822" x2="92.583" y2="114.3" layer="39"/>
-<rectangle x1="56.515" y1="0" x2="60.325" y2="7.62" layer="39"/>
+<rectangle x1="33.147" y1="99.822" x2="40.513" y2="114.3" layer="41"/>
+<rectangle x1="85.217" y1="99.822" x2="92.583" y2="114.3" layer="41"/>
+<rectangle x1="56.515" y1="0" x2="60.325" y2="7.62" layer="41"/>
 <dimension x1="0" y1="5.08" x2="0" y2="114.3" x3="-10.16" y3="59.69" textsize="1.27" layer="47"/>
-<dimension x1="116.84" y1="114.3" x2="0" y2="121.92" x3="58.42" y3="123.19" textsize="1.27" layer="47" dtype="horizontal"/>
-<rectangle x1="0" y1="5.08" x2="2.2352" y2="114.3" layer="39"/>
-<rectangle x1="114.6048" y1="5.08" x2="116.84" y2="114.3" layer="39"/>
-<rectangle x1="0" y1="5.08" x2="4.572" y2="82.7024" layer="39"/>
-<rectangle x1="112.268" y1="5.08" x2="116.84" y2="82.7024" layer="39"/>
-<rectangle x1="5.08" y1="0" x2="12.1031" y2="5.08" layer="39"/>
-<polygon width="0.127" layer="39">
-<vertex x="5.08" y="5.08"/>
-<vertex x="0" y="5.08"/>
-<vertex x="5.08" y="0"/>
-</polygon>
-<rectangle x1="104.7369" y1="0" x2="111.76" y2="5.08" layer="39"/>
-<polygon width="0.127" layer="39">
-<vertex x="111.76" y="5.08"/>
-<vertex x="116.84" y="5.08"/>
-<vertex x="111.76" y="0"/>
-</polygon>
-<rectangle x1="20.574" y1="0" x2="24.384" y2="7.62" layer="40"/>
+<rectangle x1="20.574" y1="0" x2="24.384" y2="7.62" layer="42"/>
 <rectangle x1="92.456" y1="0" x2="96.266" y2="7.62" layer="40"/>
 <circle x="36.83" y="104.775" radius="3.556" width="0" layer="40"/>
 <circle x="88.9" y="104.775" radius="3.556" width="0" layer="40"/>
-<rectangle x1="5.08" y1="0" x2="9.652" y2="114.3" layer="40"/>
-<rectangle x1="107.188" y1="0" x2="111.76" y2="114.3" layer="40"/>
-<rectangle x1="0" y1="5.08" x2="2.54" y2="114.3" layer="40"/>
-<rectangle x1="114.3" y1="5.08" x2="116.84" y2="114.3" layer="40"/>
+<rectangle x1="5.08" y1="0" x2="9.652" y2="114.3" layer="42"/>
+<rectangle x1="107.188" y1="0" x2="111.76" y2="114.3" layer="42"/>
+<rectangle x1="0" y1="5.08" x2="2.54" y2="114.3" layer="42"/>
+<rectangle x1="114.3" y1="5.08" x2="116.84" y2="114.3" layer="42"/>
 <wire x1="2.2352" y1="93.599" x2="114.6048" y2="93.599" width="0" layer="51"/>
 <wire x1="114.6048" y1="93.599" x2="114.6048" y2="114.3" width="0" layer="51"/>
 <wire x1="114.6048" y1="114.3" x2="114.3" y2="114.3" width="0" layer="51"/>
@@ -446,12 +429,12 @@ PartNo.: 581 01 48 005 S (Rev. D)&lt;/h3&gt;&lt;br /&gt;
 <wire x1="112.268" y1="82.7024" x2="114.6048" y2="82.7024" width="0" layer="51"/>
 <wire x1="114.6048" y1="82.7024" x2="114.6048" y2="93.599" width="0" layer="51"/>
 <text x="57.15" y="86.36" size="1.27" layer="51">Zone4</text>
-<wire x1="4.572" y1="5.08" x2="4.572" y2="82.7024" width="0" layer="51"/>
-<wire x1="112.268" y1="5.08" x2="112.268" y2="82.7024" width="0" layer="51"/>
-<wire x1="112.268" y1="5.08" x2="104.7369" y2="5.08" width="0" layer="51"/>
-<wire x1="4.572" y1="5.08" x2="12.1031" y2="5.08" width="0" layer="51"/>
-<wire x1="12.1031" y1="5.08" x2="12.1031" y2="30.48" width="0" layer="51"/>
-<wire x1="104.7369" y1="5.08" x2="104.7369" y2="30.48" width="0" layer="51"/>
+<wire x1="4.572" y1="4.826" x2="4.572" y2="82.7024" width="0" layer="51"/>
+<wire x1="112.268" y1="4.826" x2="112.268" y2="82.7024" width="0" layer="51"/>
+<wire x1="112.268" y1="4.826" x2="104.7369" y2="4.826" width="0" layer="51"/>
+<wire x1="4.572" y1="4.826" x2="12.1031" y2="4.826" width="0" layer="51"/>
+<wire x1="12.1031" y1="4.826" x2="12.1031" y2="30.48" width="0" layer="51"/>
+<wire x1="104.7369" y1="4.826" x2="104.7369" y2="30.48" width="0" layer="51"/>
 <wire x1="104.7369" y1="30.48" x2="103.0478" y2="33.401" width="0" layer="51"/>
 <wire x1="12.1031" y1="30.48" x2="13.7922" y2="33.401" width="0" layer="51"/>
 <wire x1="103.0478" y1="33.401" x2="103.0478" y2="62.992" width="0" layer="51"/>
@@ -461,6 +444,29 @@ PartNo.: 581 01 48 005 S (Rev. D)&lt;/h3&gt;&lt;br /&gt;
 <wire x1="89.3318" y1="76.708" x2="103.0478" y2="62.992" width="0" layer="51" curve="-90"/>
 <text x="57.15" y="78.74" size="1.27" layer="51">Zone3</text>
 <text x="57.15" y="59.69" size="1.27" layer="51">Zone2</text>
+<dimension x1="0" y1="114.3" x2="116.84" y2="114.3" x3="58.42" y3="124.46" textsize="1.27" layer="51"/>
+<polygon width="0" layer="41" spacing="0.254" pour="hatch">
+<vertex x="5.08" y="0"/>
+<vertex x="12.1031" y="0"/>
+<vertex x="12.1031" y="4.826"/>
+<vertex x="4.572" y="4.826"/>
+<vertex x="4.572" y="82.7024"/>
+<vertex x="2.2352" y="82.7024"/>
+<vertex x="2.2352" y="114.3"/>
+<vertex x="0" y="114.3"/>
+<vertex x="0" y="5.08"/>
+</polygon>
+<polygon width="0" layer="41" spacing="0.254" pour="hatch">
+<vertex x="111.76" y="0"/>
+<vertex x="116.84" y="5.08"/>
+<vertex x="116.84" y="114.3"/>
+<vertex x="114.6048" y="114.3"/>
+<vertex x="114.6048" y="82.7024"/>
+<vertex x="112.268" y="82.7024"/>
+<vertex x="112.268" y="4.826"/>
+<vertex x="104.7369" y="4.826"/>
+<vertex x="104.7369" y="0"/>
+</polygon>
 </package>
 </packages>
 <packages3d>
