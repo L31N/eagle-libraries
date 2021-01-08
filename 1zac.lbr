@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1784,7 +1784,7 @@ Specs:
 </device>
 </devices>
 </deviceset>
-<deviceset name="B320A">
+<deviceset name="B320A" prefix="D">
 <description>&lt;b&gt; 3.0A SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER&lt;br&gt;
 Available in 20,30,40,50,60 Volts</description>
 <gates>
