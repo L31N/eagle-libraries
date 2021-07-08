@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;h1&gt;Volks73's Library for Microchip Technology Parts&lt;/h1&gt;
+&lt;p&gt;
+&lt;a href="https://github.com/volks73/eagle-libraries/"&gt;Repository&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3&gt;Licensing:&lt;/h3&gt; 
+&lt;p&gt;
+Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), &lt;a href="http://creativecommons.org/licenses/by-sa/3.0/"&gt;http://creativecommons.org/licenses/by-sa/3.0/&lt;/a&gt;. 
+&lt;/p&gt;
+&lt;p&gt;
+For attribution, please provide a link in any documentation or design files to the repository on Github. 
+&lt;/p&gt;</description>
+<packages>
+<package name="SOT-23-6">
+<description>&lt;h1&gt;Small Outline Transistor (SOT) 23 Series 6-Pin&lt;/h1&gt;</description>
+<smd name="6" x="-0.95" y="1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="0" y="1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="0.95" y="1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="0.95" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R270"/>
+<smd name="2" x="0" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R270"/>
+<smd name="1" x="-0.95" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R270"/>
+<circle x="-0.95" y="-0.35" radius="0.3" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.127" layer="21"/>
+<text x="-1.905" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.205" y1="0.9" x2="-0.695" y2="1.6" layer="51"/>
+<rectangle x1="-0.255" y1="0.9" x2="0.255" y2="1.6" layer="51"/>
+<rectangle x1="0.695" y1="0.9" x2="1.205" y2="1.6" layer="51"/>
+<rectangle x1="0.695" y1="-1.6" x2="1.205" y2="-0.9" layer="51" rot="R180"/>
+<rectangle x1="-0.255" y1="-1.6" x2="0.255" y2="-0.9" layer="51" rot="R180"/>
+<rectangle x1="-1.205" y1="-1.6" x2="-0.695" y2="-0.9" layer="51" rot="R180"/>
+<wire x1="-1.55" y1="-0.9" x2="-1.55" y2="0.9" width="0.127" layer="49"/>
+<wire x1="1.55" y1="0.9" x2="1.55" y2="-0.9" width="0.127" layer="49"/>
+<wire x1="-1.55" y1="0.9" x2="1.55" y2="0.9" width="0.127" layer="49"/>
+<wire x1="1.55" y1="-0.9" x2="-1.55" y2="-0.9" width="0.127" layer="49"/>
+</package>
+<package name="SOT-23-5">
+<description>&lt;h1&gt;Small Outline Transistor (SOT) Series 23 5-Pin&lt;/h1&gt;</description>
+<smd name="5" x="-0.95" y="1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="0.95" y="1.4" dx="1.1" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="0.95" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R270"/>
+<smd name="2" x="0" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R270"/>
+<smd name="1" x="-0.95" y="-1.4" dx="1.1" dy="0.6" layer="1" rot="R270"/>
+<circle x="-0.95" y="-0.35" radius="0.3" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.127" layer="21"/>
+<text x="-1.905" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.205" y1="0.9" x2="-0.695" y2="1.6" layer="51"/>
+<rectangle x1="0.695" y1="0.9" x2="1.205" y2="1.6" layer="51"/>
+<rectangle x1="0.695" y1="-1.6" x2="1.205" y2="-0.9" layer="51" rot="R180"/>
+<rectangle x1="-0.255" y1="-1.6" x2="0.255" y2="-0.9" layer="51" rot="R180"/>
+<rectangle x1="-1.205" y1="-1.6" x2="-0.695" y2="-0.9" layer="51" rot="R180"/>
+<wire x1="-1.55" y1="-0.9" x2="-1.55" y2="0.9" width="0.127" layer="49"/>
+<wire x1="1.55" y1="0.9" x2="1.55" y2="-0.9" width="0.127" layer="49"/>
+<wire x1="-1.55" y1="0.9" x2="1.55" y2="0.9" width="0.127" layer="49"/>
+<wire x1="1.55" y1="-0.9" x2="-1.55" y2="-0.9" width="0.127" layer="49"/>
+</package>
+<package name="SOIC-8">
+<description>&lt;h1&gt;Small Outline Integrated Circuit (SOIC) 8-Pin&lt;/h1&gt;</description>
+<smd name="4" x="-2.7" y="-1.905" dx="1.55" dy="0.6" layer="1"/>
+<smd name="3" x="-2.7" y="-0.635" dx="1.55" dy="0.6" layer="1"/>
+<smd name="2" x="-2.7" y="0.635" dx="1.55" dy="0.6" layer="1"/>
+<smd name="1" x="-2.7" y="1.905" dx="1.55" dy="0.6" layer="1"/>
+<smd name="5" x="2.7" y="-1.905" dx="1.55" dy="0.6" layer="1"/>
+<smd name="6" x="2.7" y="-0.635" dx="1.55" dy="0.6" layer="1"/>
+<smd name="7" x="2.7" y="0.635" dx="1.55" dy="0.6" layer="1"/>
+<smd name="8" x="2.7" y="1.905" dx="1.55" dy="0.6" layer="1"/>
+<wire x1="-1.7" y1="-2.2" x2="-1.7" y2="2.2" width="0.127" layer="21"/>
+<wire x1="1.7" y1="2.2" x2="1.7" y2="-2.2" width="0.127" layer="21"/>
+<wire x1="1.7" y1="-2.2" x2="-1.7" y2="-2.2" width="0.127" layer="21"/>
+<text x="-2.54" y="3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="1.95" y1="1.6637" x2="3" y2="2.1463" layer="51"/>
+<rectangle x1="1.95" y1="0.3937" x2="3" y2="0.8763" layer="51"/>
+<rectangle x1="2.032" y1="-0.8763" x2="3.0734" y2="-0.3937" layer="51"/>
+<rectangle x1="1.95" y1="-0.8763" x2="3" y2="-0.3937" layer="51"/>
+<rectangle x1="1.95" y1="-2.1463" x2="3" y2="-1.6637" layer="51"/>
+<rectangle x1="-3" y1="1.6637" x2="-1.95" y2="2.1463" layer="51"/>
+<rectangle x1="-3" y1="0.3937" x2="-1.95" y2="0.8763" layer="51"/>
+<rectangle x1="-3" y1="-0.8763" x2="-1.95" y2="-0.3937" layer="51"/>
+<rectangle x1="-3" y1="-2.1463" x2="-1.95" y2="-1.6637" layer="51"/>
+<wire x1="1.7" y1="2.2" x2="-1.7" y2="2.2" width="0.127" layer="21"/>
+<circle x="-1.27" y="1.905" radius="0.2" width="0.127" layer="21"/>
+<wire x1="-1.95" y1="-2.45" x2="1.95" y2="-2.45" width="0.127" layer="49"/>
+<wire x1="1.95" y1="2.45" x2="-1.95" y2="2.45" width="0.127" layer="49"/>
+<wire x1="-1.95" y1="2.45" x2="-1.95" y2="-2.45" width="0.127" layer="49"/>
+<wire x1="1.95" y1="-2.45" x2="1.95" y2="2.45" width="0.127" layer="49"/>
+</package>
+<package name="SOIC-18">
+<description>&lt;h1&gt;18-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC]&lt;/h1&gt;</description>
+<smd name="1" x="-5.08" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="2" x="-3.81" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="3" x="-2.54" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="4" x="-1.27" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="5" x="0" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="6" x="1.27" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="7" x="2.54" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="8" x="3.81" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="9" x="5.08" y="-4.7" dx="0.6" dy="2" layer="1"/>
+<smd name="10" x="5.08" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<smd name="11" x="3.81" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<smd name="12" x="2.54" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<smd name="13" x="1.27" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<smd name="14" x="0" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<smd name="15" x="-1.27" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<smd name="16" x="-2.54" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<smd name="17" x="-3.81" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<smd name="18" x="-5.08" y="4.7" dx="0.6" dy="2" layer="1" rot="R180"/>
+<wire x1="-5.715" y1="-3.175" x2="5.715" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="5.715" y1="-3.175" x2="5.715" y2="3.175" width="0.127" layer="21"/>
+<wire x1="5.715" y1="3.175" x2="-5.715" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="3.175" x2="-5.715" y2="-3.175" width="0.127" layer="21"/>
+<circle x="-4.445" y="-1.905" radius="0.898025" width="0.127" layer="21"/>
+<wire x1="-5.715" y1="-3.81" x2="-5.715" y2="-5.715" width="0.127" layer="21"/>
+<text x="-6.35" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="7.62" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-5.75" y1="3.75" x2="5.75" y2="3.75" width="0.127" layer="49"/>
+<wire x1="5.75" y1="-3.75" x2="-5.75" y2="-3.75" width="0.127" layer="49"/>
+<wire x1="-5.75" y1="-3.75" x2="-5.75" y2="3.75" width="0.127" layer="49"/>
+<wire x1="5.75" y1="3.75" x2="5.75" y2="-3.75" width="0.127" layer="49"/>
+<rectangle x1="-0.255" y1="3.75" x2="0.255" y2="5.15" layer="51"/>
+<rectangle x1="1.015" y1="3.75" x2="1.525" y2="5.15" layer="51"/>
+<rectangle x1="2.285" y1="3.75" x2="2.795" y2="5.15" layer="51"/>
+<rectangle x1="3.555" y1="3.75" x2="4.065" y2="5.15" layer="51"/>
+<rectangle x1="4.825" y1="3.75" x2="5.335" y2="5.15" layer="51"/>
+<rectangle x1="-1.525" y1="3.75" x2="-1.015" y2="5.15" layer="51"/>
+<rectangle x1="-2.795" y1="3.75" x2="-2.285" y2="5.15" layer="51"/>
+<rectangle x1="-4.065" y1="3.75" x2="-3.555" y2="5.15" layer="51"/>
+<rectangle x1="-5.335" y1="3.75" x2="-4.825" y2="5.15" layer="51"/>
+<rectangle x1="-5.335" y1="-5.15" x2="-4.825" y2="-3.75" layer="51" rot="R180"/>
+<rectangle x1="-4.065" y1="-5.15" x2="-3.555" y2="-3.75" layer="51" rot="R180"/>
+<rectangle x1="-2.795" y1="-5.15" x2="-2.285" y2="-3.75" layer="51" rot="R180"/>
+<rectangle x1="-1.525" y1="-5.15" x2="-1.015" y2="-3.75" layer="51" rot="R180"/>
+<rectangle x1="-0.255" y1="-5.15" x2="0.255" y2="-3.75" layer="51" rot="R180"/>
+<rectangle x1="1.015" y1="-5.15" x2="1.525" y2="-3.75" layer="51" rot="R180"/>
+<rectangle x1="2.285" y1="-5.15" x2="2.795" y2="-3.75" layer="51" rot="R180"/>
+<rectangle x1="3.555" y1="-5.15" x2="4.065" y2="-3.75" layer="51" rot="R180"/>
+<rectangle x1="4.825" y1="-5.15" x2="5.335" y2="-3.75" layer="51" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="47X6">
+<pin name="SCL" x="-15.24" y="-2.54" visible="pin" length="middle"/>
+<pin name="SDA" x="-15.24" y="-5.08" visible="pin" length="middle"/>
+<pin name="VOUT" x="15.24" y="0" visible="pin" length="middle" direction="out" rot="R180"/>
+<pin name="VREF" x="-15.24" y="2.54" visible="pin" length="middle" direction="in"/>
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="3021">
+<pin name="AIN" x="15.24" y="0" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="SDA" x="-15.24" y="-2.54" visible="pin" length="middle"/>
+<pin name="SCL" x="-15.24" y="0" visible="pin" length="middle"/>
+<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="6.35" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="2515">
+<pin name="TXCAN" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="RXCAN" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="CLKOUT/SOF" x="-22.86" y="-10.16" length="middle"/>
+<pin name="!TX0RTS!" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="!TX1RTS!" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="!TX2RTS!" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="OSC2" x="-22.86" y="-7.62" length="middle"/>
+<pin name="OSC1" x="-22.86" y="-5.08" length="middle"/>
+<pin name="!RX1BF!" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="!RX0BF!" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="!INT!" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="SCK" x="-22.86" y="5.08" length="middle"/>
+<pin name="SI" x="-22.86" y="7.62" length="middle"/>
+<pin name="SO" x="-22.86" y="10.16" length="middle"/>
+<pin name="!CS!" x="-22.86" y="2.54" length="middle"/>
+<pin name="!RESET!" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<wire x1="-17.78" y1="-17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="17.78" x2="17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="17.78" x2="17.78" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-17.78" x2="-17.78" y2="-17.78" width="0.254" layer="94"/>
+<text x="-17.78" y="19.05" size="1.778" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-20.32" size="1.778" layer="95">&gt;VALUE</text>
+</symbol>
+<symbol name="2561">
+<pin name="TXD" x="-17.78" y="2.54" length="middle"/>
+<pin name="RXD" x="-17.78" y="0" length="middle"/>
+<pin name="SPLIT" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="CANL" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="CANH" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="STBY" x="-17.78" y="-2.54" length="middle"/>
+<wire x1="-12.7" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
+<text x="-12.7" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SUPPLY">
+<pin name="VDD" x="0" y="12.7" length="middle" direction="pwr" rot="R270"/>
+<pin name="VSS" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
+<text x="-2.54" y="-7.62" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-7.62" size="1.778" layer="95" rot="R90">&gt;VALUE</text>
+</symbol>
+<symbol name="OP_AMP">
+<pin name="+" x="-10.16" y="5.08" length="middle"/>
+<pin name="-" x="-10.16" y="-5.08" length="middle"/>
+<pin name="OUT" x="12.7" y="0" length="middle" rot="R180"/>
+<wire x1="-5.08" y1="10.16" x2="0" y2="6.096" width="0.254" layer="94"/>
+<wire x1="0" y1="6.096" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="0" y2="-6.096" width="0.254" layer="94"/>
+<wire x1="0" y1="-6.096" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<text x="-5.08" y="11.43" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="V+">
+<pin name="V+" x="0" y="5.08" length="middle" direction="pwr" rot="R270"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
+<symbol name="V-">
+<pin name="V-" x="0" y="-5.08" length="middle" direction="pwr" rot="R90"/>
+<text x="-2.54" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="3.81" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MCP47*6" prefix="U">
+<description>&lt;h1&gt;Digital-to-Analog Converter&lt;/h1&gt;
+&lt;h2&gt;8-/10-/12-Bit Voltage Output Digital-to-Analog Converter (DAC) with EEPROM and I&lt;sup&gt;2&lt;/sup&gt;2&amp;trade; Interface&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/22272C.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;General Description&lt;/h3&gt;
+&lt;p&gt;
+The MCP4706/4716/4726 are single channel 8-bit, 10-bit, and 12-bit buffered voltage output Digital-toAnalog Converters (DAC) with nonvolatile memory and an I2C serial interface. This family will also be referred to as MCP47X6.
+&lt;/p&gt;
+&lt;p&gt;
+The VREF pin or the device VDD can be selected as the DAC’s reference voltage. When VDD is selected, VDD is
+connected internally to the DAC reference circuit. When the VREF pin is used, the user can select the output buffer’s gain to 1 or 2. When the gain is 2, the VREF pin voltage should be limited to a maximum of VDD/2.
+&lt;/p&gt;
+&lt;p&gt;
+The DAC register value and Configuration bits can be programmed to nonvolatile memory (EEPROM). The nonvolatile memory holds the DAC register and Configuration bit values when the device is powered off. A device Reset (such as a Power-on Reset) latches these stored values into the volatile memory
+&lt;/p&gt;
+&lt;p&gt;
+Power-Down modes enable system current reduction when the DAC output voltage is not required. The VOUT pin can be configured to present a low, medium, or high resistance load.
+&lt;/p&gt;
+&lt;p&gt;
+These devices have a two-wire I2C™ compatible serial interface for standard (100 kHz), fast (400 kHz), or High-Speed (3.4 MHz) mode.
+&lt;/p&gt;
+&lt;p&gt;
+These devices are available in small 6-pin SOT-23 and DFN 2x2 mm packages.
+&lt;/p&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Output Voltage Resolutions:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;12-bit: MCP4726&lt;/i&gt;
+&lt;li&gt;10-bit: MCP4716&lt;/li&gt;
+&lt;li&gt;8-bit: MCP4706&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Rail-to-Rail Output&lt;/li&gt;
+&lt;li&gt;Fast Settling Time of 6 µs (typical)&lt;/li&gt;
+&lt;li&gt;DAC Voltage Reference Options:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;V&lt;sub&gt;DD&lt;/sub&gt;&lt;/li&gt;
+&lt;li&gt;V&lt;sub&gt;REF&lt;/sub&gt; Pin&lt;li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Output Gain Options:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Unity (1x)&lt;/li&gt;
+&lt;li&gt;2x, only when VREF pin is used as voltage source&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Nonvolatile Memory (EEPROM):&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Auto Recall of Saved DAC register setting&lt;/li&gt;
+&lt;li&gt;Auto Recall of Saved Device Configuration (Voltage Reference, Gain, Power-Down)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Power-Down modes:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Disconnects output buffer&lt;/li&gt;
+&lt;li&gt;Selection of V&lt;sub&gt;OUT&lt;/sub&gt; pull-down resistors (640 kΩ, 125 kΩ, or 1 kΩ)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Low-Power Consumption:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Normal Operation: 210 µA typical&lt;/li&gt;
+&lt;li&gt;Power-Down Operation: 60 nA typical (PD1:PD0 = 11)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Single-Supply Operation: 2.7V to 5.5V&lt;/li&gt;
+&lt;li&gt;I&lt;sup&gt;2&lt;/sup&gt;C™ Interface:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Eight Available Addresses&lt;/li&gt;
+&lt;li&gt;Standard (100 kbps), Fast (400 kbps), and High-Speed (3.4 Mbps) modes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Small 6-lead SOT-23 and DFN (2x2) Packages&lt;/li&gt;
+&lt;li&gt;Extended Temperature Range: -40°C to +125°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Set Point or Offset Trimming&lt;/li&gt;
+&lt;li&gt;Sensor Calibration&lt;/li&gt;
+&lt;li&gt;Low-Power Portable Instrumentation&lt;/li&gt;
+&lt;li&gt;PC Peripherals&lt;/li&gt;
+&lt;li&gt;Data Acquisition Systems&lt;/li&gt;
+&lt;li&gt;Motor Control&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="U$1" symbol="47X6" x="0" y="0"/>
+<gate name="-SUPPLY" symbol="SUPPLY" x="-25.4" y="2.54" addlevel="request"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-6">
+<connects>
+<connect gate="-SUPPLY" pin="VDD" pad="3"/>
+<connect gate="-SUPPLY" pin="VSS" pad="2"/>
+<connect gate="U$1" pin="SCL" pad="5"/>
+<connect gate="U$1" pin="SDA" pad="4"/>
+<connect gate="U$1" pin="VOUT" pad="1"/>
+<connect gate="U$1" pin="VREF" pad="6"/>
+</connects>
+<technologies>
+<technology name="1">
+<attribute name="DATA_INTERFACE" value="EEPROM, I2C, Serial"/>
+<attribute name="DESCRIPTION" value="IC DAC 10BIT NV EEP I2C SOT-23-6"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://ww1.microchip.com/downloads/en/DeviceDoc/22272C.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://ww1.microchip.com/downloads/en/DeviceDoc/22272C.pdf"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="NUMBER_OF_BITS" value="10"/>
+<attribute name="NUMBER_OF_CONVERTERS" value="1"/>
+<attribute name="NUMBER_OF_OUTPUTS_AND_TYPE" value="1 Voltage, Unipolar"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 125C"/>
+<attribute name="PACKAGE" value="SOT-23-6"/>
+<attribute name="PART_NUMBER" value="MCP4716A0T-E/CH"/>
+<attribute name="SETTLING_TIME" value="6us"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-6"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP4716A0T-E%2FCH/MCP4716A0T-E%2FCHCT-ND/2684987"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MCP4716A0T-E%2FCH/MCP4716A0T-E%2FCHCT-ND/2684987&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="MCP4716A0T-E/CHCT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MCP4716A0T-E%2FCH/MCP4716A0T-E%2FCHCT-ND/2684987"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="VOLTAGE_SUPPLY_SOURCE" value="Single Supply"/>
+</technology>
+<technology name="2">
+<attribute name="DATA_INTERFACE" value="EEPROM, I2C, Serial"/>
+<attribute name="DESCRIPTION" value="IC DAC 12BIT NV EEP I2C SOT-23-6"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://ww1.microchip.com/downloads/en/DeviceDoc/22272C.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://ww1.microchip.com/downloads/en/DeviceDoc/22272C.pdf"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="NUMBER_OF_BITS" value="12"/>
+<attribute name="NUMBER_OF_CONVERTERS" value="1"/>
+<attribute name="NUMBER_OF_OUTPUTS_AND_TYPE" value="1 Voltage, Unipolar"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 125C"/>
+<attribute name="PACKAGE" value="SOT-23-6"/>
+<attribute name="PART_NUMBER" value="MCP4726A0T-E/CH"/>
+<attribute name="SETTLING_TIME" value="6us"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-6"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP4726A0T-E%2FCH/MCP4726A0T-E%2FCHCT-ND/2713266?WT.z_cid=ref_octopart_dkc_buynow&amp;site=us"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MCP4726A0T-E%2FCH/MCP4726A0T-E%2FCHCT-ND/2713266?WT.z_cid=ref_octopart_dkc_buynow&amp;site=us&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="MCP4726A0T-E/CHCT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MCP4726A0T-E%2FCH/MCP4726A0T-E%2FCHCT-ND/2713266?WT.z_cid=ref_octopart_dkc_buynow&amp;site=us"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="VOLTAGE_SUPPLY_SOURCE" value="Single Supply"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP3*21" prefix="U">
+<description>&lt;h1&gt;Analog-to-Digital Converter&lt;/h1&gt;
+&lt;h2&gt;Low Power 10-, 12-Bit A/D Converter with I&lt;sup&gt;2&lt;/sup&gt;2&amp;trade; Interface&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;General Description&lt;/h3&gt;
+&lt;p&gt;
+The Microchip Technology Inc. MCP3021 is a successive approximation A/D converter (ADC) with 10-bit resolution. Available in the SOT-23 package, this device provides one single-ended input with very low power consumption. Based on an advanced CMOS technology, the MCP3021 provides a low maximum conversion current and standby current of 250 µA and 1 µA, respectively. Low current consumption, combined with the small SOT-23 package, make this device ideal for battery-powered and remote data acquisition applications.
+&lt;/p&gt;
+&lt;p&gt;
+Communication to the MCP3021 is performed using a 2-wire I2C compatible interface. Standard (100 kHz) and Fast (400 kHz) I2C modes are available with the
+device. An on-chip conversion clock enables independent timing for the I2C and conversion clocks. The device is also addressable, allowing up to eight devices on a single 2-wire bus.
+&lt;/p&gt;
+&lt;p&gt;
+The MCP3021 runs on a single supply voltage that operates over a broad range of 2.7V to 5.5V. This device also provides excellent linearity of ±1 LSB differential non-linearity (DNL) and ±1 LSB integral nonlinearity (INL), maximum.
+&lt;/p&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;10-bit resolution&lt;li&gt;
+&lt;li&gt;±1 LSB DNL, ±1 LSB INL max.&lt;/li&gt;
+&lt;li&gt;250 µA max conversion current&lt;/li&gt;
+&lt;li&gt;5 nA typical standby current, 1 µA max.&lt;/li&gt;
+&lt;li&gt;I&lt;sup&gt;2&lt;/sup&gt;C&amp;trade; compatible serial interface&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;100 kHz I&lt;sup&gt;2&lt;/sup&gt;C Standard mode&lt;/li&gt;
+&lt;li&gt;400 kHz I&lt;sup&gt;2&lt;/sup&gt;C Fast mode&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Up to 8 devices on single 2-wire bus&lt;/li&gt;
+&lt;li&gt;22.3 ksps in I2C Fast mode&lt;/li&gt;
+&lt;li&gt;Single-ended analog input channel&lt;/li&gt;
+&lt;li&gt;On-chip sample and hold&lt;/li&gt;
+&lt;li&gt;On-chip conversion clock&lt;/li&gt;
+&lt;li&gt;Single supply specified operation: 2.7V to 5.5V&lt;/li&gt;
+&lt;li&gt;Temperature range:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Extended: -40°C to +125°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Small SOT-23 package&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Data Logging&lt;/li&gt;
+&lt;li&gt;Multi-zone Monitoring&lt;/li&gt;
+&lt;li&gt;Hand Held Portable Applications&lt;/li&gt;
+&lt;li&gt;Battery Powered Test Equipment&lt;/li&gt;
+&lt;li&gt;Remote or Isolated Data Acquisition&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="U$1" symbol="3021" x="0" y="0"/>
+<gate name="-SUPPLY" symbol="SUPPLY" x="-25.4" y="0" addlevel="request"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-5">
+<connects>
+<connect gate="-SUPPLY" pin="VDD" pad="1"/>
+<connect gate="-SUPPLY" pin="VSS" pad="2"/>
+<connect gate="U$1" pin="AIN" pad="3"/>
+<connect gate="U$1" pin="SCL" pad="5"/>
+<connect gate="U$1" pin="SDA" pad="4"/>
+</connects>
+<technologies>
+<technology name="0">
+<attribute name="ARCHITECTURE" value="SAR"/>
+<attribute name="CONFIGURATION" value="S/H-ADC"/>
+<attribute name="DATA_INTERFACE" value="I2C"/>
+<attribute name="DESCRIPTION" value="IC ADC 10BIT 2.7V 1CH SOT23-5"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="INPUT_TYPE" value="Single Ended"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="NUMBER_OF_AD_CONVERTERS" value="1"/>
+<attribute name="NUMBER_OF_BITS" value="10"/>
+<attribute name="NUMBER_OF_INPUTS" value="1"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 125C"/>
+<attribute name="PACKAGE" value="SC-74A, SOT-753"/>
+<attribute name="PART_NUMBER" value="MCP3021A5T-E/OT"/>
+<attribute name="RATIO" value="1:1"/>
+<attribute name="REFERENCE_TYPE" value="External"/>
+<attribute name="SAMPLING_RATE" value="22.3k"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-5"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP3021A5T-E%2FOT/MCP3021A5T-E%2FOTCT-ND/1979808"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MCP3021A5T-E%2FOT/MCP3021A5T-E%2FOTCT-ND/1979808&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="MCP3021A5T-E/OTCT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MCP3021A5T-E%2FOT/MCP3021A5T-E%2FOTCT-ND/1979808"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="VOLTAGE-SUPPLY_ANALOG" value="2.7V ~ 5.5V"/>
+<attribute name="VOLTAGE-SUPPLY_DIGITAL" value="2.7V ~ 5.5V"/>
+</technology>
+<technology name="2">
+<attribute name="ARCHITECTURE" value="SAR"/>
+<attribute name="CONFIGURATION" value="S/H-ADC"/>
+<attribute name="DATA_INTERFACE" value="I2C"/>
+<attribute name="DESCRIPTION" value="IC ADC 12BIT 2.7V 1CH SOT23-5"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://ww1.microchip.com/downloads/en/DeviceDoc/21805B.pdf"/>
+<attribute name="FEATURES" value="-"/>
+<attribute name="INPUT_TYPE" value="Single Ended"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="NUMBER_OF_AD_CONVERTERS" value="1"/>
+<attribute name="NUMBER_OF_BITS" value="12"/>
+<attribute name="NUMBER_OF_INPUTS" value="1"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 125C"/>
+<attribute name="PACKAGE" value="SC-74A, SOT-753"/>
+<attribute name="PART_NUMBER" value="MCP3221A5T-E/OT"/>
+<attribute name="RATIO" value="1:1"/>
+<attribute name="REFERENCE_TYPE" value="External"/>
+<attribute name="SAMPLING_RATE" value="22.3k"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="SOT-23-5"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP3221A5T-I%2FOT/MCP3221A5T-I%2FOTCT-ND/529836"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MCP3221A5T-I%2FOT/MCP3221A5T-I%2FOTCT-ND/529836&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="MCP3221A5T-I/OTCT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MCP3021A5T-E%2FOT/MCP3021A5T-E%2FOTCT-ND/1979808"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="VOLTAGE-SUPPLY_ANALOG" value="2.7V ~ 5.5V"/>
+<attribute name="VOLTAGE-SUPPLY_DIGITAL" value="2.7V ~ 5.5V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP6002T-*/?" prefix="U">
+<description>&lt;h1&gt;Op Amp&lt;/h1&gt;
+&lt;h2&gt;1 MHz, Low-Power Op Amp&lt;/h2&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/50001894D.pdf"&gt;Development Tools Catalog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;General Description&lt;/h3&gt;
+&lt;p&gt;
+The Microchip Technology Inc. MCP6001/2/4 family of operational amplifiers (op amps) is specifically designed for general-purpose applications. This family has a 1 MHz Gain Bandwidth Product (GBWP) and 90° phase margin (typical). It also maintains 45° phase margin (typical) with a 500 pF capacitive load. This family operates from a single supply voltage as low as 1.8V, while drawing 100 µA (typical) quiescent current. Additionally, the MCP6001/2/4 supports rail-to-rail input and output swing, with a common mode input voltage range of VDD + 300 mV to VSS – 300 mV. This family of op amps is designed with Microchip’s advanced CMOS process.
+&lt;/p&gt;
+&lt;p&gt;
+The MCP6001/2/4 family is available in the industrial and extended temperature ranges, with a power supply range of 1.8V to 6.0V..
+&lt;/p&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Available in SC-70-5 and SOT-23-5 packages&lt;/li&gt;
+&lt;li&gt;Gain Bandwidth Product: 1 MHz (typical)&lt;/li&gt;
+&lt;li&gt;Rail-to-Rail Input/Output&lt;/li&gt;
+&lt;li&gt;Supply Voltage: 1.8V to 6.0V&lt;/li&gt;
+&lt;li&gt;Supply Current: IQ = 100 µA (typical)&lt;/li&gt;
+&lt;li&gt;Phase Margin: 90° (typical)&lt;/li&gt;
+&lt;li&gt;Temperature Range:&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Industrial: -40°C to +85°C&lt;/li&gt;
+&lt;li&gt;Extended: -40°C to +125°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Available in Single, Dual and Quad Packages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Applications&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Automotive&lt;/li&gt;
+&lt;li&gt;Portable Equipment&lt;/li&gt;
+&lt;li&gt;Photodiode Amplifier&lt;/li&gt;
+&lt;li&gt;Analog Filters&lt;/li&gt;
+&lt;li&gt;Notebooks and PDAs&lt;/li&gt;
+&lt;li&gt;Battery-Powered Systems&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="-SUPPLY" symbol="SUPPLY" x="-33.02" y="2.54" addlevel="request"/>
+<gate name="A" symbol="OP_AMP" x="5.08" y="20.32"/>
+<gate name="B" symbol="OP_AMP" x="5.08" y="-10.16"/>
+</gates>
+<devices>
+<device name="SN" package="SOIC-8">
+<connects>
+<connect gate="-SUPPLY" pin="VDD" pad="8"/>
+<connect gate="-SUPPLY" pin="VSS" pad="4"/>
+<connect gate="A" pin="+" pad="3"/>
+<connect gate="A" pin="-" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="+" pad="5"/>
+<connect gate="B" pin="-" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+</connects>
+<technologies>
+<technology name="I">
+<attribute name="3DB_BANDWIDTH" value="-"/>
+<attribute name="AMPLIFIER_TYPE" value="General Purpose"/>
+<attribute name="CURRENT-INPUT_BIAS" value="1pA"/>
+<attribute name="CURRENT-OUTPUT" value="23mA"/>
+<attribute name="CURRENT-SUPPLY" value="100uA"/>
+<attribute name="DESCRIPTION" value="IC OPAMP GP 1MHZ RRO 8SOIC"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"/>
+<attribute name="GAIN_BANDWIDTH" value="1MHz"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="NUMBER_OF_CIRCUITS" value="2"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40C ~ 85C"/>
+<attribute name="OUTPUT_TYPE" value="Rail-to-Rail"/>
+<attribute name="PACKAGE" value="8-SOIC"/>
+<attribute name="PART_NUMBER" value="MCP6002T-I/SN"/>
+<attribute name="SLEW_RATE" value="0.6 V/us"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-SOIC N"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP6002T-I%2FSN/MCP6002T-I%2FSNCT-ND/4307905"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MCP6002T-I%2FSN/MCP6002T-I%2FSNCT-ND/4307905&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="MCP6002T-I/SNCT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MCP6002T-I%2FSN/MCP6002T-I%2FSNCT-ND/4307905"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="VOLTAGE-INPUT_OFFSET" value="4.5mV"/>
+<attribute name="VOLTAGE-SUPPLY" value="1.8V ~ 6V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP2515-*/?" prefix="U">
+<description>&lt;h1&gt;Stand-Alone CAN Controller with SPI Interface&lt;/h1&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21801G.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/50001894D.pdf"&gt;Development Tools Catalog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/80179g.pdf"&gt;MCP2515 REv. B Silicon Errata&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;General Description&lt;/h3&gt;
+&lt;p&gt;
+Microchip Technology’s MCP2515 is a stand-alone Controller Area Network (CAN) controller that implements the CAN specification, version 2.0B. It is capable of transmitting and receiving both standard and extended data and remote frames. The MCP2515 has two acceptance masks and six acceptance filters that are used to filter out unwanted messages, thereby reducing the host MCU’s overhead. The MCP2515 interfaces with microcontrollers (MCUs) via an industry standard Serial Peripheral Interface (SPI).
+&lt;/p&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Implements CAN V2.0B at 1 Mb/s:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;0-8 byte length in the data field&lt;/li&gt;
+    &lt;li&gt;Standard and extended data and remote frames&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Receive Buffers, Masks and Filters:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Two receive buffers with prioritized message storage&lt;/li&gt;
+    &lt;li&gt;Six 29-bit filters&lt;/li&gt;
+    &lt;li&gt;Two 29-bit masks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Data Byte Filtering on the First Two Data Bytes (applies to standard data frames)&lt;/li&gt;
+&lt;li&gt;Three Transmit Buffers with Prioritization and Abort Features&lt;/li&gt;
+&lt;li&gt;High-Speed SPI Interface (10 MHz):&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;SPI modes 0,0 and 1,1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;One-Shot mode Ensures Message Transmission is Attempted Only One Time&lt;/li&gt;
+&lt;li&gt;Clock Out Pin with Programmable Prescaler:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Can be used as a clock source for other device(s)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Start-of-Frame (SOF) Signal is Available for Monitoring the SOF Signal:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Can be used for time-slot-based protocols and/or bus diagnostics to detect early bus degradation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Interrupt Output Pin with Selectable Enables&lt;/li&gt;
+&lt;li&gt;Buffer Full Output Pins Configurable as:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Interrupt output for each receive buffer&lt;/li&gt;
+    &lt;li&gt;General purpose output&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Request-to-Send (RTS) Input Pins Individually Configurable as:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Control pins to request transmission for each transmit buffer&lt;/li&gt;
+    &lt;li&gt;General purpose inputs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Low-Power CMOS Technology:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Operates from 2.7V - 5.5V&lt;/li&gt;
+    &lt;li&gt;5 mA active current (typical)&lt;/li&gt;
+    &lt;li&gt;1 µA standby current (typical) (Sleep mode)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Temperature Ranges Supported:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Industrial (I): -40°C to +85°C&lt;/li&gt;
+    &lt;li&gt;Extended (E): -40°C to +125°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="U$1" symbol="2515" x="0" y="0"/>
+<gate name="-SUPPLY" symbol="SUPPLY" x="-40.64" y="0" addlevel="request"/>
+</gates>
+<devices>
+<device name="SO" package="SOIC-18">
+<connects>
+<connect gate="-SUPPLY" pin="VDD" pad="18"/>
+<connect gate="-SUPPLY" pin="VSS" pad="9"/>
+<connect gate="U$1" pin="!CS!" pad="16"/>
+<connect gate="U$1" pin="!INT!" pad="12"/>
+<connect gate="U$1" pin="!RESET!" pad="17"/>
+<connect gate="U$1" pin="!RX0BF!" pad="11"/>
+<connect gate="U$1" pin="!RX1BF!" pad="10"/>
+<connect gate="U$1" pin="!TX0RTS!" pad="4"/>
+<connect gate="U$1" pin="!TX1RTS!" pad="5"/>
+<connect gate="U$1" pin="!TX2RTS!" pad="6"/>
+<connect gate="U$1" pin="CLKOUT/SOF" pad="3"/>
+<connect gate="U$1" pin="OSC1" pad="8"/>
+<connect gate="U$1" pin="OSC2" pad="7"/>
+<connect gate="U$1" pin="RXCAN" pad="2"/>
+<connect gate="U$1" pin="SCK" pad="13"/>
+<connect gate="U$1" pin="SI" pad="14"/>
+<connect gate="U$1" pin="SO" pad="15"/>
+<connect gate="U$1" pin="TXCAN" pad="1"/>
+</connects>
+<technologies>
+<technology name="I">
+<attribute name="CATEGORY" value="Integrated Circuits (ICs)"/>
+<attribute name="CURRENT-SUPPLY" value="10mA"/>
+<attribute name="DATASHEET" value="http://ww1.microchip.com/downloads/en/DeviceDoc/21801G.pdf"/>
+<attribute name="DESCRIPTION" value="IC CAN CONTROLLER W/SPI 18SOIC"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en552842&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en552842"/>
+<attribute name="FAMILY" value="Interface - Controllers"/>
+<attribute name="FUNCTION" value="Controller"/>
+<attribute name="INTERFACE" value="SPI"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 85°C"/>
+<attribute name="PACKAGE-CASE" value="18-SOIC (0.295&quot;, 7.50mm Width)"/>
+<attribute name="PART_NUMBER" value="MCP2515-I/SO"/>
+<attribute name="PROTOCOL" value="CAN"/>
+<attribute name="SERIES" value="-"/>
+<attribute name="STANDARDS" value="CAN 2.0"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="18-SOIC"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MCP2515T-I%2FSO/MCP2515T-I%2FSOCT-ND/4307902&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="MCP2515T-I/SOCT-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MCP2515T-I%2FSO/MCP2515T-I%2FSOCT-ND/4307902"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="VOLTAGE-SUPPLY" value="2.7 V ~ 5.5 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP2561-*/?" prefix="U">
+<description>&lt;h1&gt;High-Speed CAN Transceiver&lt;/h1&gt;
+&lt;h3&gt;Documentation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf"&gt;Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;General Description&lt;/h3&gt;
+&lt;p&gt;
+The MCP2561/2 is a Microchip Technology Inc. second generation high-speed CAN transceiver. It serves as an interface between a CAN protocol controller and the physical two-wire CAN bus.
+&lt;/p&gt;
+&lt;p&gt;
+The device meets the automotive requirements for high-speed (up to 1 Mb/s), low quiescent current, electromagnetic compatibility (EMC) and electrostatis discharge (ESD).
+&lt;/p&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Supports 1 Mb/s Operation&lt;/li&gt;
+&lt;li&gt;Implements ISO-11898-2 and ISO-11898-5 Standard Physical Layer Requirements&lt;/li&gt;
+&lt;li&gt;Very Low Standby Current (5 µA, typical)&lt;/li&gt;
+&lt;li&gt;V&lt;sub&gt;IO&lt;/sub&gt; Supply Pin to Interface Directly to CAN Controllers and Microcontrollers with 1.8V to 5.5V I/O&lt;/li&gt;
+&lt;li&gt;SPLIT Output Pin to Stabilize Common Mode in Biased Split Termination Schemes&lt;/li&gt;
+&lt;li&gt;CAN Bus Pins are Disconnected when Device is Unpowered:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;An Unpowered Node or Brown-Out Event will Not Load the CAN Bus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Detection of Ground Fault:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Permanent Dominant Detection on TXD&lt;/li&gt;
+    &lt;li&gt;Permanent Dominant Detection on Bus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;li&gt;Power-on Reset and Voltage Brown-Out Protection on V&lt;sub&gt;DD&lt;/sub&gt; Pin&lt;/li&gt;
+&lt;li&gt;Protection Against Damage Due to Short-Circuit Conditions (Positive or Negative Battery Voltage)&lt;/li&gt;
+&lt;li&gt;Protection Against High-Voltage Transients in Automotive Environments&lt;/li&gt;
+&lt;li&gt;Automatic Thermal Shutdown Protection&lt;/li&gt;
+&lt;li&gt;Suitable for 12V and 24V Systems&lt;/li&gt;
+&lt;li&gt;Meets or exceeds stringent automotive design requirements including “Hardware Requirements for LIN, CAN and FlexRay Interfaces in Automotive Applications”, Version 1.3, May 2012&lt;/li&gt;
+&lt;li&gt;High-Noise Immunity Due to Differential Bus Implementation&lt;/li&gt;
+&lt;li&gt;High Electrostatic Discharge (ESD) Protection on CANH and CANL, meeting the IEC61000-4-2 up to ±14 kV&lt;/li&gt;
+&lt;li&gt;Available in PDIP-8L, SOIC-8L and 3x3 DFN-8L&lt;/li&gt;
+&lt;li&gt;Temperature ranges:&lt;/li&gt;
+&lt;ul&gt;
+    &lt;li&gt;Extended (E): -40°C to +125°C&lt;/li&gt;
+    &lt;li&gt;High (H): -40°C to +150°C&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="U$1" symbol="2561" x="0" y="0"/>
+<gate name="-SUPPLY" symbol="SUPPLY" x="-27.94" y="0" addlevel="request"/>
+</gates>
+<devices>
+<device name="SN" package="SOIC-8">
+<connects>
+<connect gate="-SUPPLY" pin="VDD" pad="3"/>
+<connect gate="-SUPPLY" pin="VSS" pad="2"/>
+<connect gate="U$1" pin="CANH" pad="7"/>
+<connect gate="U$1" pin="CANL" pad="6"/>
+<connect gate="U$1" pin="RXD" pad="4"/>
+<connect gate="U$1" pin="SPLIT" pad="5"/>
+<connect gate="U$1" pin="STBY" pad="8"/>
+<connect gate="U$1" pin="TXD" pad="1"/>
+</connects>
+<technologies>
+<technology name="E">
+<attribute name="CATEGORY" value="Integrated Circuits (ICs)"/>
+<attribute name="DATA_RATE" value="-"/>
+<attribute name="DESCRIPTION" value="IC TXRX CAN 8SOIC"/>
+<attribute name="DOCUMENTATION_LINK" value="&lt;a href=&quot;http://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf&quot;&gt;Datasheet&lt;/a&gt;"/>
+<attribute name="DOCUMENTATION_URL" value="http://ww1.microchip.com/downloads/en/DeviceDoc/20005167C.pdf"/>
+<attribute name="DUPLEX" value="Full"/>
+<attribute name="FAMILY" value="Interface - Drivers, Receivers, Transceivers"/>
+<attribute name="MANUFACTURER" value="Microchip Technology"/>
+<attribute name="MOUNTING_TYPE" value="Surface Mount"/>
+<attribute name="NUMBER_OF_DRIVERS-RECEIVERS" value="1/1"/>
+<attribute name="OPERATING_TEMPERATURE" value="-40°C ~ 125°C"/>
+<attribute name="PACKAGE_CASE" value="8-SOIC (0.154&quot;, 3.90mm Width)"/>
+<attribute name="PART_NUMBER" value="MCP2561-E/SN"/>
+<attribute name="PROTOCOL" value="CAN"/>
+<attribute name="RECEIVER_HYSTERSIS" value="-"/>
+<attribute name="SERIES" value="-"/>
+<attribute name="SUPPLIER_DEVICE_PACKAGE" value="8-SOIC N"/>
+<attribute name="SUPPLIER_ITEM_INFO" value="http://www.digikey.com/product-detail/en/MCP2561-E%2FSN/MCP2561-E%2FSN-ND/4079961"/>
+<attribute name="SUPPLIER_ITEM_LINK" value="&lt;a href=&quot;http://www.digikey.com/product-detail/en/MCP2561-E%2FSN/MCP2561-E%2FSN-ND/4079961&quot;&gt;Details&lt;/a&gt;"/>
+<attribute name="SUPPLIER_ITEM_NUMBER" value="MCP2561-E/SN-ND"/>
+<attribute name="SUPPLIER_ITEM_URL" value="http://www.digikey.com/product-detail/en/MCP2561-E%2FSN/MCP2561-E%2FSN-ND/4079961"/>
+<attribute name="SUPPLIER_LINK" value="&lt;a href=&quot;http://www.digikey.com&quot;&gt;Home Page&lt;/a&gt;"/>
+<attribute name="SUPPLIER_NAME" value="Digi-Key"/>
+<attribute name="SUPPLIER_URL" value="http://www.digikey.com"/>
+<attribute name="TYPE" value="Transceiver"/>
+<attribute name="VOLTAGE-SUPPLY" value="4.5 V ~ 5.5 V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
