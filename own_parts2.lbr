@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.2" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -915,15 +915,15 @@ Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
 <hole x="75.8" y="5" drill="2.7"/>
 <hole x="33.9" y="5" drill="2.7"/>
 <hole x="-4.2" y="5" drill="2.7"/>
-<wire x1="116.7" y1="-8" x2="116.7" y2="28" width="0.127" layer="22"/>
-<wire x1="116.7" y1="28" x2="-7" y2="28" width="0.127" layer="22"/>
-<wire x1="-7" y1="28" x2="-7" y2="-8" width="0.127" layer="22"/>
-<wire x1="-7" y1="-8" x2="116.7" y2="-8" width="0.127" layer="22"/>
-<wire x1="-7" y1="28" x2="-30" y2="28" width="0.127" layer="22"/>
-<wire x1="-30" y1="28" x2="-30" y2="31" width="0.127" layer="22"/>
-<wire x1="-30" y1="31" x2="139.7" y2="31" width="0.127" layer="22"/>
-<wire x1="139.7" y1="31" x2="139.7" y2="28" width="0.127" layer="22"/>
-<wire x1="139.7" y1="28" x2="116.7" y2="28" width="0.127" layer="22"/>
+<wire x1="116.7" y1="-8" x2="116.7" y2="28" width="0.127" layer="21"/>
+<wire x1="116.7" y1="28" x2="-7" y2="28" width="0.127" layer="21"/>
+<wire x1="-7" y1="28" x2="-7" y2="-8" width="0.127" layer="21"/>
+<wire x1="-7" y1="-8" x2="116.7" y2="-8" width="0.127" layer="21"/>
+<wire x1="-7" y1="28" x2="-30" y2="28" width="0.127" layer="21"/>
+<wire x1="-30" y1="28" x2="-30" y2="31" width="0.127" layer="21"/>
+<wire x1="-30" y1="31" x2="139.7" y2="31" width="0.127" layer="21"/>
+<wire x1="139.7" y1="31" x2="139.7" y2="28" width="0.127" layer="21"/>
+<wire x1="139.7" y1="28" x2="116.7" y2="28" width="0.127" layer="21"/>
 </package>
 <package name="POLOLU_STEPPER_DRIVER_36V4">
 <description>Pololu Stepper Driver 36v4
