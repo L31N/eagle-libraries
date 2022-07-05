@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -30863,7 +30864,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32L476Z*T">
+<deviceset name="STM32L476Z*T" prefix="IC">
 <description>&lt;b&gt;ARM 32-bit Cortex™-M4 CPU&lt;/b&gt;&lt;p&gt;
 80 MHz maximum frequency&lt;br&gt;
 512..1024 Kbytes of Flash memory&lt;br&gt;
