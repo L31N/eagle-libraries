@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -837,8 +837,6 @@ Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
 <pad name="C3" x="24.7" y="8" drill="1.1" shape="octagon"/>
 <pad name="B3" x="27.2" y="8" drill="1.1" shape="octagon"/>
 <pad name="A3" x="29.7" y="8" drill="1.1" shape="octagon"/>
-<hole x="-4.2" y="5" drill="2.7"/>
-<hole x="33.9" y="5" drill="2.7"/>
 <wire x1="-7" y1="28" x2="36.7" y2="28" width="0.127" layer="21"/>
 <wire x1="36.7" y1="28" x2="36.7" y2="-8" width="0.127" layer="21"/>
 <wire x1="36.7" y1="-8" x2="-7" y2="-8" width="0.127" layer="21"/>
@@ -848,6 +846,8 @@ Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
 <wire x1="44.7" y1="31" x2="-15" y2="31" width="0.127" layer="21"/>
 <wire x1="-15" y1="31" x2="-15" y2="28" width="0.127" layer="21"/>
 <wire x1="-15" y1="28" x2="-7" y2="28" width="0.127" layer="21"/>
+<pad name="P$2" x="-4.2" y="5" drill="2.7"/>
+<pad name="P$1" x="33.9" y="5" drill="2.7"/>
 </package>
 <package name="CON_MOLEX_CMC_36638_0010">
 <pad name="A1_B" x="109.7" y="0" drill="1.1" shape="octagon" rot="R180"/>
@@ -922,10 +922,6 @@ Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
 <pad name="K3_S" x="7.2" y="8" drill="1.1" shape="octagon" rot="R180"/>
 <pad name="L3_S" x="3.7" y="8" drill="1.1" diameter="2" shape="octagon" rot="R180"/>
 <pad name="M3_S" x="0" y="8" drill="1.1" diameter="2" shape="octagon" rot="R180"/>
-<hole x="113.9" y="5" drill="2.7"/>
-<hole x="75.8" y="5" drill="2.7"/>
-<hole x="33.9" y="5" drill="2.7"/>
-<hole x="-4.2" y="5" drill="2.7"/>
 <wire x1="116.7" y1="-8" x2="116.7" y2="28" width="0.127" layer="21"/>
 <wire x1="116.7" y1="28" x2="-7" y2="28" width="0.127" layer="21"/>
 <wire x1="-7" y1="28" x2="-7" y2="-8" width="0.127" layer="21"/>
@@ -935,6 +931,10 @@ Source: http://www.diodes.com/datasheets/ds31262.pdf</description>
 <wire x1="-30" y1="31" x2="139.7" y2="31" width="0.127" layer="21"/>
 <wire x1="139.7" y1="31" x2="139.7" y2="28" width="0.127" layer="21"/>
 <wire x1="139.7" y1="28" x2="116.7" y2="28" width="0.127" layer="21"/>
+<pad name="P$1" x="-4.2" y="5" drill="2.7"/>
+<pad name="P$2" x="33.9" y="5" drill="2.7"/>
+<pad name="P$3" x="75.8" y="5" drill="2.7"/>
+<pad name="P$4" x="113.9" y="5" drill="2.7"/>
 </package>
 <package name="POLOLU_STEPPER_DRIVER_36V4">
 <description>Pololu Stepper Driver 36v4
